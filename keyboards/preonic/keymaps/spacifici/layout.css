@@ -1,18 +1,19 @@
 .keyboard-layout {
   border-collapse: collapse;
   font-size: 12pt;
+  font-family: "arial";
 }
 
 td.keyboard-key {
   border: 1px solid black;
-  width: 6em;
-  height: 6em;
+  width: 10ex;
+  height: 10ex;
   margin: 0;
   position: relative;
 }
 
 .layer {
-  font-size: 0.75em;
+  font-size: 0.8em;
   position: absolute;
   padding: 0.3em;
 }

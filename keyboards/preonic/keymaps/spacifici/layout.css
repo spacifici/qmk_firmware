@@ -1,0 +1,40 @@
+.keyboard-layout {
+  border-collapse: collapse;
+  font-size: 12pt;
+}
+
+td.keyboard-key {
+  border: 1px solid black;
+  width: 6em;
+  height: 6em;
+  margin: 0;
+  position: relative;
+}
+
+.layer {
+  font-size: 0.75em;
+  position: absolute;
+  padding: 0.3em;
+}
+
+.raise {
+  top: 0;
+  right: 0;
+}
+
+.low {
+  bottom: 0;
+  left: 0;
+}
+
+.adjust {
+  bottom: 0;
+  right: 0;
+}
+
+.main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
